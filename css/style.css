@@ -1,8 +1,14 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 
 /*////////// Global Styles //////////*/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 body {
 	background: #F3EBE9;
@@ -17,4 +23,91 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+/* Sections */
+.outer {
+	width: 1050px;
+}
+a {
+	text-decoration: none;
+	color: #1783bb;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+div {
+	margin: 0 auto;
+}
+
+h1 {
+	font: 5em "Baskerville", serif;
+	font-weight: bold;
+	color: #9bada6;
+	margin: 0;
+}
+
+h1 a {
+	text-decoration: none;
+	color: #9bada6;
+}
+
+h1 a:hover {
+	color: rgb(111,127,122);
+	text-decoration: none;
+
+}
+
+h2 {
+	font: 2em "Baskerville", "Times New Roman", serif;
+	font-weight: bold;
+	color: #9bada6;
+}
+
+p {
+	font: "Times New Roman", serif;
+	color: #545454; 
+}
+
+section {
+	clear:both;
+}
+
+#main-img {
+	width: 100%;
+	border: 5px rgb(152,173,166) solid;
+}
+
+hr {
+	color: rgb(111,127,122);
+	margin-bottom: 5px;
+}
+
+#footer {
+	font: .8em "Times New Roman", serif;
+	text-align: right;
+	color: #9bada6;
+	margin-top: 20px;
+}
+
+.press {
+	display: inline-block;
+	text-decoration: none;
+	border: 5px #ccc solid;
+	padding: 1px;
+	margin-left: 1px;
+	margin-bottom: 1px;
+}
+
+.first {
+	margin-left: 0px;
+}
+
+.clearfix {
+	content: ".";
+	display: block;
+	visibility: none;
+	clear: both;
+	height: 0;
+	line-height: 0;
+}
